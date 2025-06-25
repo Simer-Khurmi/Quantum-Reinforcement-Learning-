@@ -29,8 +29,6 @@ Key contributions:
 
 ---
 
-## 🧠 Methodology
-
 ### 🔧 System Overview
 
 ```mermaid
@@ -41,7 +39,6 @@ graph TD
     D --> E[Decision: Buy / Hold / Sell]
     E --> F[Reward Calculation]
     F --> G[Q-Table Update]
-````
 
 ### 📊 Data Source
 
