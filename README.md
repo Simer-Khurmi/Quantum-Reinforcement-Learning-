@@ -72,13 +72,13 @@ graph TD
 * **Measurement outcomes** determine the action: Buy / Hold / Sell
 * Integration via `cirq.Simulator()` for iterative learning
 
-```python
+
 circuit = cirq.Circuit()
 circuit.append(cirq.H(q) for q in qubits)
 result = cirq.Simulator().run(circuit)
-```
 
----
+
+
 
 ## 📈 Results Summary
 
