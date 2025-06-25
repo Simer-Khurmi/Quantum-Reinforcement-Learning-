@@ -29,16 +29,6 @@ Key contributions:
 
 ---
 
-### 🔧 System Overview
-
-```mermaid
-graph TD
-    A[Raw Stock Data] --> B[Preprocessing]
-    B --> C[Gym Trading Environment]
-    C --> D[Quantum Agent (Cirq)]
-    D --> E[Decision: Buy / Hold / Sell]
-    E --> F[Reward Calculation]
-    F --> G[Q-Table Update]
 
 ### 📊 Data Source
 
@@ -148,9 +138,5 @@ This project is licensed under the [MIT License](LICENSE).
 
 If you find this project insightful, please ⭐ the repo and follow for future research updates in **Quantum Finance**.
 
-```
 
----
 
-Would you like a ZIP package with placeholder images (`figures/`) and LaTeX equations too? Or should I also generate a live website view (e.g., GitHub Pages / Docs site) for this?
-```
